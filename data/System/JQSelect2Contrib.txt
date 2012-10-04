@@ -1,0 +1,69 @@
+%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1349362185" format="1.1" reprev="1" version="1"}%
+---+ %TOPIC%
+
+%JQPLUGINS{"select2"
+  format="
+    Homepage: $homepage <br />
+    Author(s): $author <br />
+    Version: $version
+  "
+}%
+
+This extension adds support for the Select2 jQuery widget to Foswiki.
+
+%STARTSECTION{"summary"}%
+Select2 magically turns an existing select tag into a widget that supports
+type-ahead find, but it can do much more: selecting multiple values, remote
+data sources, infinite scrolling... you name it.
+%ENDSECTION{"summary"}%
+
+For more information about the widget and how to customize it, see its homepage.
+
+---++ Usage
+
+Use =%<nop>JQREQUIRE{"select2"}%= to make use of Select2 on a wiki page.
+Add the =jqSelect2= CSS class to a select tag to make it turn into a Select2 widget.
+
+---++ Example
+
+<verbatim class="tml">
+%JQREQUIRE{"select2"}%
+
+<select class='jqSelect2 {placeholder: "Select a burger", width: "element"}'>
+<option>Hamburger</option>
+<option>Hamburger deluxe with gold plating</option>
+<option>Cheeseburger</option>
+<option>Joppiburger</option>
+</select>
+</verbatim>
+
+If Select2 is enabled, you will see the result below:
+
+%JQREQUIRE{"select2"}%
+<select class='jqSelect2 {placeholder: "Select a burger", width: "element"}'>
+<option>Hamburger</option>
+<option>Hamburger deluxe with gold plating</option>
+<option>Cheeseburger</option>
+<option>Joppiburger</option>
+</select>
+
+---++ Installation Instructions
+
+%$INSTALL_INSTRUCTIONS%
+
+---++ Info
+<!--
+   * Set SHORTDESCRIPTION = %$SHORTDESCRIPTION%
+-->
+
+|  Author(s): | [[Foswiki:Main.JanKrueger][Jan Krueger]] |
+|  Copyright: | &copy; 2012 Modell Aachen !GmbH, http://modell-aachen.de/ |
+|  License: | [[http://www.gnu.org/licenses/gpl.html][GPL (GNU General Public License)]] |
+|  Release: | %$RELEASE% |
+|  Version: | %$VERSION% |
+|  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  04 Oct 2012: | initial release based on Select2 3.2 |
+|  Dependencies: | %$DEPENDENCIES% |
+|  Home page: | Foswiki:Extensions/%TOPIC% |
+|  Support: | Foswiki:Support/%TOPIC% |
+
