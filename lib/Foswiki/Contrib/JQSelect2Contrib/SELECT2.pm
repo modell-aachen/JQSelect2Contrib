@@ -43,7 +43,7 @@ sub new {
     name => 'Select2',
     version => '3.2',
     author => 'Igor Vaynberg',
-    homepage => 'http://foswiki.org/Extensions/JQSelect2Contrib',
+    homepage => 'http://ivaynberg.github.com/select2/',
     puburl => '%PUBURLPATH%/%SYSTEMWEB%/JQSelect2Contrib',
     documentation => "$Foswiki::cfg{SystemWebName}.JQSelect2Contrib",
     javascript => ['jquery.select2.init.js', 'jquery.select2.js'],
