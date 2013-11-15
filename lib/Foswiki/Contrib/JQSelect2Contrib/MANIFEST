@@ -1,0 +1,18 @@
+data/System/JQSelect2Contrib.txt 0644
+lib/Foswiki/Contrib/JQSelect2Contrib.pm 0644
+lib/Foswiki/Contrib/JQSelect2Contrib/Config.spec 0644
+lib/Foswiki/Contrib/JQSelect2Contrib/SELECT2.pm 0644
+pub/System/JQSelect2Contrib/jquery.select2.css 0644
+pub/System/JQSelect2Contrib/jquery.select2.css.gz 0644
+pub/System/JQSelect2Contrib/jquery.select2.js 0644
+pub/System/JQSelect2Contrib/jquery.select2.js.gz 0644
+pub/System/JQSelect2Contrib/jquery.select2.uncompressed.css 0644
+pub/System/JQSelect2Contrib/jquery.select2.uncompressed.js 0644
+pub/System/JQSelect2Contrib/jquery.select2.init.js 0644
+pub/System/JQSelect2Contrib/jquery.select2.init.js.gz 0644
+pub/System/JQSelect2Contrib/jquery.select2.init.uncompressed.js 0644
+pub/System/JQSelect2Contrib/LICENSE
+pub/System/JQSelect2Contrib/select2.png 0644
+pub/System/JQSelect2Contrib/select2x2.png 0644
+pub/System/JQSelect2Contrib/spinner.gif 0644
+
