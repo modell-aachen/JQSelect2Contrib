@@ -17,7 +17,7 @@ package Foswiki::Contrib::JQSelect2Contrib;
 use strict;
 use warnings;
 
-our $VERSION = '$Rev$';
+our $VERSION = '0';
 our $RELEASE = "0";
 our $SHORTDESCRIPTION = 'Select2 jQuery widget for Foswiki';
 our $NO_PREFS_IN_TOPIC = 1;
