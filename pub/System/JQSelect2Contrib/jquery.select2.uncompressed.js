@@ -2899,7 +2899,11 @@ S2.define('select2/data/select',[
     var data = [];
     var self = this;
 
-    this.$element.find(':selected').each(function () {
+    var $selected = this.$element.find(':selected');
+    if ( $selected.length === 0 ) {
+        $selected = this.$element.find('[selected]');
+    }
+    $selected.each(function () {
       var $option = $(this);
 
       var option = self.item($option);
