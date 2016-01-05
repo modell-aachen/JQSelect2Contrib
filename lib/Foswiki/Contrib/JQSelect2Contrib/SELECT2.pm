@@ -41,9 +41,9 @@ sub new {
   my $this = bless($class->SUPER::new( 
     $Foswiki::Plugins::SESSION,
     name => 'Select2',
-    version => '4.0',
+    version => '4.0.1',
     author => 'Kevin Brown, Igor Vaynberg and Select2 contributors',
-    homepage => 'http://ivaynberg.github.com/select2/',
+    homepage => 'http://select2.github.io/select2/',
     puburl => '%PUBURLPATH%/%SYSTEMWEB%/JQSelect2Contrib',
     documentation => "$Foswiki::cfg{SystemWebName}.JQSelect2Contrib",
     javascript => ['jquery.select2.init.js', 'jquery.select2.js'],
