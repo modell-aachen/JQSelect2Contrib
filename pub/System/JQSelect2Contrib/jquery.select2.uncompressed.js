@@ -3029,6 +3029,7 @@ S2.define('select2/data/select',[
     // If data.element is a DOM node, use it instead
     if ($(data.element).is('option')) {
       data.element.selected = true;
+      $(data.element).attr('selected', 'selected');
 
       this.$element.trigger('change');
 
@@ -3072,6 +3073,7 @@ S2.define('select2/data/select',[
 
     if ($(data.element).is('option')) {
       data.element.selected = false;
+      $(data.element).removeAttr('selected');
 
       this.$element.trigger('change');
 
@@ -3174,6 +3176,7 @@ S2.define('select2/data/select',[
 
     if (data.selected) {
       option.selected = true;
+      $(option).attr('selected', 'selected');
     }
 
     if (data.title) {
