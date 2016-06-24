@@ -1611,12 +1611,12 @@ S2.define('select2/selection/multiple',[
     var $container = $(
       '<li class="select2-selection__choice">' +
         '<span class="select2-selection__choice__remove" role="presentation">' +
-          '<i class="fa fa-times-circle"" aria-hidden="true"></i>' +
+          '<i class="fa fa-times-circle" aria-hidden="true"></i>' +
         '</span>' +
       '</li>'
     );
     if(typeof choiceIcon != 'undefined'){
-        $container.prepend(`<i class='fa ${choiceIcon} choice-icon' aria-hidden='true'></i>`);
+        $container.prepend('<i class="fa ${choiceIcon} choice-icon" aria-hidden="true"></i>');
     }
 
     return $container;
