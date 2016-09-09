@@ -480,3 +480,10 @@
 
 .select2-container--classic.select2-container--open .select2-dropdown {
   border-color: #5897fb; }
+
+.jqAjaxLoader {
+    background: url(spinner.gif) 0 0 no-repeat;
+    height: 16px;
+    width: 16px;
+    display: block;
+}
