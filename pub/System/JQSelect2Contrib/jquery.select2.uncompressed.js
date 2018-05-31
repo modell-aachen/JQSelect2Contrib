@@ -1786,7 +1786,7 @@ S2.define('select2/selection/allowClear',[
 
     var $remove = $(
       '<span class="select2-selection__clear">' +
-        '&times;' +
+        '<i class="fas fa-times-circle"></i>' +
       '</span>'
     );
     $remove.data('data', data);
